@@ -16,15 +16,9 @@ public class MovingObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        switch (mainGame.speed)
+        if (Time.timeScale > 0f)
         {
-            case < 1:
-                _transform.localPosition -= new Vector3(0.045f, 0, 0);
-                break;
-            
-            case >= 1:
-                _transform.localPosition -= new Vector3(0.045f * mainGame.speed, 0, 0);
-                break;
+            _transform.localPosition -= new Vector3(0.065f * (mainGame.speed / (3 * mainGame.speed)), 0, 0);
         }
     }
 }

@@ -8,7 +8,15 @@ public class PowerUpItem : MonoBehaviour
 
     void Start()
     {
-        powerUp = (PowerUp)UnityEngine.Random.Range(0, Enum.GetValues(typeof(PowerUp)).Length);
+        powerUp = (PowerUp)UnityEngine.Random.Range(1, Enum.GetValues(typeof(PowerUp)).Length);
         text.text = $"{powerUp.ToString()}";
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Obstacle"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

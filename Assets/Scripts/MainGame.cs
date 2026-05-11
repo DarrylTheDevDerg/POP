@@ -3,16 +3,24 @@ using UnityEngine;
 public class MainGame : MonoBehaviour
 {
     public float speed;
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
-        speed += Time.deltaTime / 50;
+        switch (speed)
+        {
+            case < 2:
+                speed += Time.deltaTime / 50;
+                break;
+            
+            case < 4:
+                speed += Time.deltaTime / 100;
+                break;
+            
+            case < 6:
+                speed += Time.deltaTime / 150;
+                break;
+        }
+        
     }
 }

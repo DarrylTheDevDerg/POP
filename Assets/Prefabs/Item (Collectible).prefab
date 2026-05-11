@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 7785982509272422555}
   - component: {fileID: 4095435228461996082}
   - component: {fileID: 5763507065993612487}
+  - component: {fileID: -3397096297851770449}
   m_Layer: 0
   m_Name: Item (Collectible)
   m_TagString: Collectible
@@ -252,7 +253,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.74
+  m_Radius: 1.05
 --- !u!114 &4095435228461996082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,6 +280,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Collectible
   value: 100
+--- !u!50 &-3397096297851770449
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5887034152300221230}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &8504916556044490481
 GameObject:
   m_ObjectHideFlags: 0

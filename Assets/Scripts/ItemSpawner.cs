@@ -8,30 +8,44 @@ public class ItemSpawner : MonoBehaviour
     public GameObject[] itemPrefabs;
     public GameObject[] obsPrefabs;
 
-    private float _objTimer, _obsTimer;
+    private float _objTimer, _obsTimer, chance;
+    private PauseMenu _pauseMenu;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         mgmt = FindObjectOfType<MainGame>();
+        
+        _objTimer = Random.Range(15, 35);
+        _obsTimer = Random.Range(20, 35);
     }
 
     // Update is called once per frame
     void Update()
     {
-        _objTimer += Time.deltaTime;
-        _obsTimer += Time.deltaTime;
-
-        if (_objTimer >= 10 / mgmt.speed)
+        if (Time.timeScale > 0)
         {
-            SpawnItems(itemSpawner, Random.Range(1, 4));
-            _objTimer = 0;
-        }
+            chance += Time.deltaTime / 2;
 
-        if (_obsTimer >= 7 / mgmt.speed)
-        {
-            SpawnObs(obsSpawner);
-            _obsTimer = 0;
+            if (chance >= 10)
+            {
+                chance = 10;
+            }
+            
+            _objTimer += Time.deltaTime;
+            _obsTimer += Time.deltaTime;
+
+            if (_objTimer >= 12 / (chance / 9f))
+            {
+                SpawnItems(itemSpawner, Random.Range(1, 7));
+                _objTimer = 0;
+            }
+
+            if (_obsTimer >= 10 / (chance / 3f))
+            {
+                SpawnObs(obsSpawner);
+                _obsTimer = 0;
+            }
         }
     }
 
