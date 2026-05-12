@@ -27,15 +27,15 @@ public class ItemSpawner : MonoBehaviour
         {
             chance += Time.deltaTime / 2;
 
-            if (chance >= 10)
+            if (chance >= 17)
             {
-                chance = 10;
+                chance = 17;
             }
             
             _objTimer += Time.deltaTime;
             _obsTimer += Time.deltaTime;
 
-            if (_objTimer >= 12 / (chance / 9f))
+            if (_objTimer >= 12 / (chance / 7f))
             {
                 SpawnItems(itemSpawner, Random.Range(1, 7));
                 _objTimer = 0;

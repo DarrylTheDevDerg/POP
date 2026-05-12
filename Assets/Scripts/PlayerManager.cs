@@ -48,7 +48,7 @@ public class PlayerManager : MonoBehaviour
         {
             ModifyScore(1 * (multiplier + (combo / 9)));
             
-            if (_controls.Player.Jump.IsPressed() && !hasBeenHit)
+            if (_controls.Player.Flap.WasPressedThisFrame() && !hasBeenHit)
             {
                 MoveUpwards();
             }
@@ -76,12 +76,22 @@ public class PlayerManager : MonoBehaviour
                 
                 if (combo > 1) ComboChain();
             }
+            
+            if (multiplier == 1)
+            {
+                multiText.gameObject.SetActive(false);
+            }
+            else
+            {
+                multiText.gameObject.SetActive(true);
+                multiText.text = $"MULTIPLICADOR DE: {multiplier}x";
+            }
         }
     }
 
     public void MoveUpwards()
     {
-        _rb.AddForce((transform.up + Vector3.up) * 4.5f);
+        _rb.linearVelocity = Vector2.up * 5.25f;
     }
 
     public int ModifyScore(int mod)
@@ -123,7 +133,7 @@ public class PlayerManager : MonoBehaviour
                 break;
             
             case "Collectible":
-                _comboTimer = 7.5f;
+                _comboTimer = 8.5f;
                 Color org = new Color(1, 1, 1, 1);
                 ModifyScore(other.gameObject.GetComponent<Collectible>().value * (multiplier + (combo / 9)));
                 
@@ -142,7 +152,7 @@ public class PlayerManager : MonoBehaviour
     {
         _currentPowerUp = p;
         _isPowerActive = true;
-        _powahTimer = 15f;
+        _powahTimer = 17.5f;
     }
 
     public void CommitDie()
@@ -163,14 +173,17 @@ public class PlayerManager : MonoBehaviour
         {
             case PowerUp.None:
                 multiplier = 1;
+                
                 break;
             
             case PowerUp.Multiplier:
                 multiplier = 2;
+                
                 break;
             
             case PowerUp.Faster:
                 multiplier = 4;
+                
                 break;
         }
     }
