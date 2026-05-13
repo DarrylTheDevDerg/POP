@@ -7,6 +7,13 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     private bool isPaused = false;
     
+    private PlayerManager _controls;
+
+    void Awake()
+    {
+        _controls = FindFirstObjectByType<PlayerManager>();
+    }
+    
     // Update is called once per frame
     void Update()
     {
@@ -39,6 +46,7 @@ public class PauseMenu : MonoBehaviour
 
     public void SceneChange(string sceneName)
     {
+        _controls._controls.Disable();
         SceneManager.LoadScene(sceneName);
     }
 

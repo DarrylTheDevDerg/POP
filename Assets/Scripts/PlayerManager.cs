@@ -24,8 +24,9 @@ public class PlayerManager : MonoBehaviour
     private bool _isPowerActive;
     private PowerUp _currentPowerUp = PowerUp.None;
     private float _powahTimer, _comboTimer;
-    private int multiplier = 1;
-    private PlayerControls _controls;
+    private int _multiplier = 1;
+    
+    public PlayerControls _controls;
 
     void Awake()
     {
@@ -46,7 +47,7 @@ public class PlayerManager : MonoBehaviour
         
         if (Time.timeScale > 0f)
         {
-            ModifyScore(1 * (multiplier + (combo / 9)));
+            ModifyScore(1 * (_multiplier + (combo / 9)));
             
             if (_controls.Player.Flap.WasPressedThisFrame() && !hasBeenHit)
             {
@@ -76,16 +77,6 @@ public class PlayerManager : MonoBehaviour
                 
                 if (combo > 1) ComboChain();
             }
-            
-            if (multiplier == 1)
-            {
-                multiText.gameObject.SetActive(false);
-            }
-            else
-            {
-                multiText.gameObject.SetActive(true);
-                multiText.text = $"MULTIPLICADOR DE: {multiplier}x";
-            }
         }
     }
 
@@ -110,7 +101,7 @@ public class PlayerManager : MonoBehaviour
                 powerText.text = other.gameObject.GetComponent<PowerUpItem>().powerUp.ToString();
                 Color change = new Color(1, 1, 1, 1);
                 powerText.color = change;
-                ModifyScore(100 * (multiplier + (combo / 6)));
+                ModifyScore(100 * (_multiplier + (combo / 6)));
                 Destroy(other.gameObject);
                 break;
             
@@ -123,7 +114,7 @@ public class PlayerManager : MonoBehaviour
                 else if (_isPowerActive && _currentPowerUp == PowerUp.Invincibility)
                 {
                     Destroy(other.gameObject);
-                    ModifyScore(150 * (multiplier + (combo / 9)));
+                    ModifyScore(150 * (_multiplier + (combo / 9)));
                 }
                 else
                 {
@@ -135,7 +126,7 @@ public class PlayerManager : MonoBehaviour
             case "Collectible":
                 _comboTimer = 8.5f;
                 Color org = new Color(1, 1, 1, 1);
-                ModifyScore(other.gameObject.GetComponent<Collectible>().value * (multiplier + (combo / 9)));
+                ModifyScore(other.gameObject.GetComponent<Collectible>().value * (_multiplier + (combo / 9)));
                 
                 if (_comboTimer > 0f)
                 {
@@ -172,18 +163,18 @@ public class PlayerManager : MonoBehaviour
         switch (_currentPowerUp)
         {
             case PowerUp.None:
-                multiplier = 1;
-                
+                _multiplier = 1;
+                MultiplierDisplay(1);
                 break;
             
             case PowerUp.Multiplier:
-                multiplier = 2;
-                
+                _multiplier = 2;
+                MultiplierDisplay(2);
                 break;
             
             case PowerUp.Faster:
-                multiplier = 4;
-                
+                _multiplier = 4;
+                MultiplierDisplay(4);
                 break;
         }
     }
@@ -204,6 +195,17 @@ public class PlayerManager : MonoBehaviour
         {
             combo = 0;
             comboText.gameObject.SetActive(false);
+        }
+    }
+
+    public void MultiplierDisplay(int value)
+    {
+        multiText.gameObject.SetActive(true);
+        multiText.text = $"MULTIPLICADOR DE: {value}x";
+
+        if (value == 1)
+        {
+            multiText.gameObject.SetActive(false);
         }
     }
 
