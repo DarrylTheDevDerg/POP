@@ -1,15 +1,31 @@
 using System;
 using UnityEngine;
 
+[Serializable]
+public class PowerUpSprite
+{
+    public PowerUp Name;
+    public Sprite SpriteToDisplay;
+}
+
 public class PowerUpItem : MonoBehaviour
 {
     public PowerUp powerUp;
-    public TMPro.TextMeshPro text;
+    public PowerUpSprite[] powerUpSprites;
+    public SpriteRenderer renderer;
+    
 
     void Start()
     {
         powerUp = (PowerUp)UnityEngine.Random.Range(1, Enum.GetValues(typeof(PowerUp)).Length);
-        text.text = $"{powerUp.ToString()}";
+
+        foreach (PowerUpSprite sprite in powerUpSprites)
+        {
+            if (sprite.Name == powerUp)
+            {
+                renderer.sprite = sprite.SpriteToDisplay;
+            }
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)

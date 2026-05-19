@@ -24,7 +24,7 @@ public class PlayerManager : MonoBehaviour
     private bool _isPowerActive;
     private PowerUp _currentPowerUp = PowerUp.None;
     private float _powahTimer, _comboTimer;
-    private int _multiplier = 1;
+    public int multiplier = 1;
     
     public PlayerControls _controls;
 
@@ -44,10 +44,11 @@ public class PlayerManager : MonoBehaviour
     void Update()
     {
         scoreText.text = score.ToString("D9");
+        PowerEffect();
         
         if (Time.timeScale > 0f)
         {
-            ModifyScore(1 * (_multiplier + (combo / 9)));
+            if (!hasBeenHit) ModifyScore(1 * (multiplier + (combo / 9)));
             
             if (_controls.Player.Flap.WasPressedThisFrame() && !hasBeenHit)
             {
@@ -82,7 +83,7 @@ public class PlayerManager : MonoBehaviour
 
     public void MoveUpwards()
     {
-        _rb.linearVelocity = Vector2.up * 5.25f;
+        _rb.linearVelocity = Vector2.up * 6.75f;
     }
 
     public int ModifyScore(int mod)
@@ -98,10 +99,35 @@ public class PlayerManager : MonoBehaviour
             case "Power":
                 GetPowerUp(other.gameObject.GetComponent<PowerUpItem>().powerUp);
                 powerText.gameObject.SetActive(true);
-                powerText.text = other.gameObject.GetComponent<PowerUpItem>().powerUp.ToString();
+
+                switch (other.gameObject.GetComponent<PowerUpItem>().powerUp)
+                {
+                    case PowerUp.Magnet:
+                        powerText.text = "Íman";
+                        break;
+                    
+                    case PowerUp.Faster:
+                        powerText.text = "Rapidez";
+                        break;
+                    
+                    case PowerUp.Invincibility:
+                        powerText.text = "Invencibilidad";
+                        break;
+                    
+                    case PowerUp.Multiplier:
+                        powerText.text = "Multiplicador";
+                        break;
+                    
+                    case PowerUp.Slow:
+                        powerText.text = "Lentitud";
+                        break;
+                }
+                
+                // powerText.text = other.gameObject.GetComponent<PowerUpItem>().powerUp.ToString();
+                
                 Color change = new Color(1, 1, 1, 1);
                 powerText.color = change;
-                ModifyScore(100 * (_multiplier + (combo / 6)));
+                ModifyScore(100 * (multiplier + (combo / 6)));
                 Destroy(other.gameObject);
                 break;
             
@@ -114,7 +140,7 @@ public class PlayerManager : MonoBehaviour
                 else if (_isPowerActive && _currentPowerUp == PowerUp.Invincibility)
                 {
                     Destroy(other.gameObject);
-                    ModifyScore(150 * (_multiplier + (combo / 9)));
+                    ModifyScore(150 * (multiplier + (combo / 9)));
                 }
                 else
                 {
@@ -124,14 +150,14 @@ public class PlayerManager : MonoBehaviour
                 break;
             
             case "Collectible":
-                _comboTimer = 8.5f;
+                _comboTimer = 9.25f;
                 Color org = new Color(1, 1, 1, 1);
-                ModifyScore(other.gameObject.GetComponent<Collectible>().value * (_multiplier + (combo / 9)));
+                ModifyScore(other.gameObject.GetComponent<Collectible>().value * (multiplier + (combo / 9)));
                 
                 if (_comboTimer > 0f)
                 {
                     comboText.color = org;
-                    combo++;
+                    combo += 1 * multiplier;
                 }
                 
                 Destroy(other.gameObject);
@@ -143,7 +169,7 @@ public class PlayerManager : MonoBehaviour
     {
         _currentPowerUp = p;
         _isPowerActive = true;
-        _powahTimer = 17.5f;
+        _powahTimer = 19.5f;
     }
 
     public void CommitDie()
@@ -163,17 +189,17 @@ public class PlayerManager : MonoBehaviour
         switch (_currentPowerUp)
         {
             case PowerUp.None:
-                _multiplier = 1;
+                multiplier = 1;
                 MultiplierDisplay(1);
                 break;
             
             case PowerUp.Multiplier:
-                _multiplier = 2;
+                multiplier = 2;
                 MultiplierDisplay(2);
                 break;
             
             case PowerUp.Faster:
-                _multiplier = 4;
+                multiplier = 4;
                 MultiplierDisplay(4);
                 break;
         }
@@ -201,7 +227,7 @@ public class PlayerManager : MonoBehaviour
     public void MultiplierDisplay(int value)
     {
         multiText.gameObject.SetActive(true);
-        multiText.text = $"MULTIPLICADOR DE: {value}x";
+        multiText.text = $"¡MULTIPLICADOR DE: {value}x!";
 
         if (value == 1)
         {
