@@ -1,0 +1,498 @@
+fileFormatVersion: 2
+guid: d79ba80b4a51e3143bd642d4b578b0f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6083355676737852865
+    second: Illustration51_0
+  - first:
+      213: 6679305698302706679
+    second: Illustration51_1
+  - first:
+      213: -6481105167446588818
+    second: Illustration51_2
+  - first:
+      213: -2327715291548765804
+    second: Illustration51_3
+  - first:
+      213: -4389960564282893402
+    second: Illustration51_4
+  - first:
+      213: -3877528251712133363
+    second: Illustration51_5
+  - first:
+      213: -2768578127096561098
+    second: Illustration51_6
+  - first:
+      213: 7374852702222166040
+    second: Illustration51_7
+  - first:
+      213: -5967836060631704768
+    second: Illustration51_8
+  - first:
+      213: -6188707493175776064
+    second: Illustration51_9
+  - first:
+      213: -1474011790854138191
+    second: Illustration51_10
+  - first:
+      213: -2576191695256938886
+    second: Illustration51_11
+  - first:
+      213: -1184604440405621158
+    second: Illustration51_12
+  - first:
+      213: -110321100755957285
+    second: Illustration51_13
+  - first:
+      213: -8597667822800657669
+    second: Illustration51_14
+  - first:
+      213: -5788258998548874311
+    second: Illustration51_15
+  - first:
+      213: -2121958561843298919
+    second: Illustration51_16
+  - first:
+      213: 4878084876304186329
+    second: Illustration51_17
+  - first:
+      213: 7177686680099069758
+    second: Illustration51_18
+  - first:
+      213: 4077900778908735753
+    second: Illustration51_19
+  - first:
+      213: 659458253740335425
+    second: Illustration51_20
+  - first:
+      213: -3979079556759285246
+    second: Illustration51_21
+  - first:
+      213: 545077690625281462
+    second: Illustration51_22
+  - first:
+      213: 4911180632264807597
+    second: Illustration51_23
+  - first:
+      213: 1222724573634645751
+    second: Illustration51_24
+  - first:
+      213: 2110500328686779366
+    second: Illustration51_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Illustration51_0
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1441
+        width: 3404
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5d05ac1cb6c6450800000000000000
+      internalID: 6083355676737852865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illustration51_15
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 909
+        width: 459
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb398bbb19fbafa0800000000000000
+      internalID: -5788258998548874311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illustration51_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 207
+        width: 307
+        height: 484
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d3b3d3ee94d82e0800000000000000
+      internalID: -2121958561843298919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illustration51_17
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 233
+        width: 401
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbf05c895072b340800000000000000
+      internalID: 4878084876304186329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illustration51_18
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 191
+        width: 387
+        height: 581
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f9b5ca1044c9360800000000000000
+      internalID: 7177686680099069758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illustration51_19
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 200
+        width: 307
+        height: 569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909d42c172d979830800000000000000
+      internalID: 4077900778908735753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illustration51_20
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 207
+        width: 420
+        height: 551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141646ea9cdd62900800000000000000
+      internalID: 659458253740335425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illustration51_21
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 234
+        width: 340
+        height: 569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2021856a93877c8c0800000000000000
+      internalID: -3979079556759285246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illustration51_22
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 200
+        width: 400
+        height: 598
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdc5bc8541809700800000000000000
+      internalID: 545077690625281462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illustration51_23
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 206
+        width: 409
+        height: 655
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da41ce5b3c4082440800000000000000
+      internalID: 4911180632264807597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illustration51_24
+      rect:
+        serializedVersion: 2
+        x: 3624
+        y: 232
+        width: 387
+        height: 603
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe42ad758df7f010800000000000000
+      internalID: 1222724573634645751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illustration51_25
+      rect:
+        serializedVersion: 2
+        x: 4171
+        y: 202
+        width: 415
+        height: 672
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb78b5fdd00a4d10800000000000000
+      internalID: 2110500328686779366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5540267045ffdcd4aa59b3f1f5e4d6c5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Illustration51_0: 6083355676737852865
+      Illustration51_1: 6679305698302706679
+      Illustration51_10: -1474011790854138191
+      Illustration51_11: -2576191695256938886
+      Illustration51_12: -1184604440405621158
+      Illustration51_13: -110321100755957285
+      Illustration51_14: -8597667822800657669
+      Illustration51_15: -5788258998548874311
+      Illustration51_16: -2121958561843298919
+      Illustration51_17: 4878084876304186329
+      Illustration51_18: 7177686680099069758
+      Illustration51_19: 4077900778908735753
+      Illustration51_2: -6481105167446588818
+      Illustration51_20: 659458253740335425
+      Illustration51_21: -3979079556759285246
+      Illustration51_22: 545077690625281462
+      Illustration51_23: 4911180632264807597
+      Illustration51_24: 1222724573634645751
+      Illustration51_25: 2110500328686779366
+      Illustration51_3: -2327715291548765804
+      Illustration51_4: -4389960564282893402
+      Illustration51_5: -3877528251712133363
+      Illustration51_6: -2768578127096561098
+      Illustration51_7: 7374852702222166040
+      Illustration51_8: -5967836060631704768
+      Illustration51_9: -6188707493175776064
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
