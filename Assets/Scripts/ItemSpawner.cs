@@ -3,12 +3,13 @@ using UnityEngine;
 public class ItemSpawner : MonoBehaviour
 {
     public MainGame mgmt;
-    public BoxCollider2D itemSpawner, obsSpawner;
+    public BoxCollider2D itemSpawner, obsSpawner, fishSpawner;
     
     public GameObject[] itemPrefabs;
     public GameObject[] obsPrefabs;
+    public GameObject fishPrefab;
 
-    private float _objTimer, _obsTimer, chance;
+    private float _objTimer, _obsTimer, _fishT, chance;
     private PauseMenu _pauseMenu;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -34,6 +35,7 @@ public class ItemSpawner : MonoBehaviour
             
             _objTimer += Time.deltaTime;
             _obsTimer += Time.deltaTime;
+            _fishT += Time.deltaTime;
 
             if (_objTimer >= 12 / (chance / 7f))
             {
@@ -45,6 +47,12 @@ public class ItemSpawner : MonoBehaviour
             {
                 SpawnObs(obsSpawner);
                 _obsTimer = 0;
+            }
+            
+            if (_fishT >= 7.45f / (chance / 9.45f))
+            {
+                SpawnFish(fishSpawner);
+                _fishT = 0;
             }
         }
     }
@@ -62,6 +70,12 @@ public class ItemSpawner : MonoBehaviour
     {
         Vector2 position = GetRandomSpawnPosition(obsSpawn);
         Instantiate(obsPrefabs[Random.Range(0, obsPrefabs.Length)], position, Quaternion.identity);
+    }
+    
+    void SpawnFish(Collider2D fishSpawn)
+    {
+        Vector2 position = GetRandomSpawnPosition(fishSpawn);
+        Instantiate(fishPrefab, position, Quaternion.identity);
     }
     
     Vector2 GetRandomSpawnPosition(Collider2D coll)
