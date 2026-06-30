@@ -2,7 +2,6 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public enum PowerUp
 {
@@ -20,11 +19,14 @@ public class PlayerManager : MonoBehaviour
     public TextMeshProUGUI scoreText, powerText, comboText, multiText;
     
     public bool hasBeenHit = false;
+
+    public AudioClip flap, hit, pUp, oBreak, phit;
     
     private Rigidbody2D _rb;
     private bool _isPowerActive;
     private PowerUp _currentPowerUp = PowerUp.None;
     private float _powahTimer, _comboTimer;
+    private float _cRotation, _holdR;
     public int multiplier = 1;
     
     public PlayerControls _controls;
@@ -44,12 +46,12 @@ public class PlayerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = score.ToString("D9");
+        scoreText.text = score.ToString();
         PowerEffect();
         
         if (Time.timeScale > 0f)
         {
-            if (!hasBeenHit) ModifyScore(1 * (multiplier + (combo / 9)));
+            if (!hasBeenHit) ModifyScore(1 * multiplier);
             
             if (_controls.Player.Flap.WasPressedThisFrame() && !hasBeenHit)
             {
@@ -79,11 +81,26 @@ public class PlayerManager : MonoBehaviour
                 
                 if (combo > 1) ComboChain();
             }
+            
+            transform.rotation = Quaternion.Euler(0f, 0f, _cRotation);
+
+            if (_cRotation > -65f && _holdR <= 0f)
+            {
+                _cRotation -= 0.45f;
+            }
+
+            if (_holdR > 0f)
+            {
+                _holdR -= Time.deltaTime;
+            }
         }
     }
 
     public void MoveUpwards()
     {
+        _holdR = 0.375f;
+        _cRotation = 38.5f;
+        AudioManager.instance.PlaySFX(flap);
         _rb.linearVelocity = Vector2.up * 6.75f;
     }
 
@@ -128,20 +145,23 @@ public class PlayerManager : MonoBehaviour
                 
                 Color change = new Color(1, 1, 1, 1);
                 powerText.color = change;
-                ModifyScore(100 * (multiplier + (combo / 6)));
+                ModifyScore(100 * multiplier);
                 Destroy(other.gameObject);
+                AudioManager.instance.PlaySFX(pUp);
                 break;
             
             case "Obstacle":
                 if (_isPowerActive && _currentPowerUp != PowerUp.Invincibility)
                 {
+                    AudioManager.instance.PlaySFX(phit);
                     _powahTimer = 0f;
                     _isPowerActive = false;
                 }
                 else if (_isPowerActive && _currentPowerUp == PowerUp.Invincibility)
                 {
+                    AudioManager.instance.PlaySFX(oBreak);
                     Destroy(other.gameObject);
-                    ModifyScore(150 * (multiplier + (combo / 9)));
+                    ModifyScore(150 * multiplier);
                 }
                 else
                 {
@@ -153,7 +173,7 @@ public class PlayerManager : MonoBehaviour
             case "Collectible":
                 _comboTimer = 9.25f;
                 Color org = new Color(1, 1, 1, 1);
-                ModifyScore(other.gameObject.GetComponent<Collectible>().value * (multiplier + (combo / 9)));
+                ModifyScore(other.gameObject.GetComponent<Collectible>().value * multiplier);
                 
                 if (_comboTimer > 0f)
                 {
@@ -176,6 +196,7 @@ public class PlayerManager : MonoBehaviour
     public void CommitDie()
     {
         hasBeenHit = true;
+        AudioManager.instance.PlaySFX(hit);
         StartCoroutine(GameOver());
     }
 
