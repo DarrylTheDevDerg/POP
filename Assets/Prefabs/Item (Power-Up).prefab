@@ -87,15 +87,15 @@ MonoBehaviour:
   powerUp: 0
   powerUpSprites:
   - Name: 1
-    SpriteToDisplay: {fileID: 21300000, guid: 8d66a29b363bc8b49a19ee886758e04d, type: 3}
+    SpriteToDisplay: {fileID: 21300000, guid: 4440a6f23a0f747439e6923b9bc694b5, type: 3}
   - Name: 2
-    SpriteToDisplay: {fileID: 21300000, guid: 0ddd043a1ec464443bf850749480a042, type: 3}
+    SpriteToDisplay: {fileID: 21300000, guid: 9d88a46bb1f697a458787933d5091ce4, type: 3}
   - Name: 3
-    SpriteToDisplay: {fileID: 21300000, guid: 37c92c6fb98c89046a82efac48462e62, type: 3}
+    SpriteToDisplay: {fileID: 21300000, guid: e23bde4dd397a074ba7439589e6506f3, type: 3}
   - Name: 4
-    SpriteToDisplay: {fileID: 21300000, guid: 7e57821e28d331b4bb7334956a5c4ee4, type: 3}
+    SpriteToDisplay: {fileID: 21300000, guid: 8f1d344fe43dfef489c8c838ab5fc228, type: 3}
   - Name: 5
-    SpriteToDisplay: {fileID: 21300000, guid: 24c54ff5a8fc01c4cadcd8428607f994, type: 3}
+    SpriteToDisplay: {fileID: 21300000, guid: ea73db9b7ae17604aaf59f5b725c038b, type: 3}
   renderer: {fileID: 8069739785801156781}
 --- !u!114 &2826422234640001824
 MonoBehaviour:

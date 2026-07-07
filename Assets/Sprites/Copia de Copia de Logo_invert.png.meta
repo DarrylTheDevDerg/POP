@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 7d48a067c494c8a4fb304b9e9363878c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4451456191682339102
+    second: Copia de Copia de Logo_invert_0
+  - first:
+      213: -8273150887301712448
+    second: Copia de Copia de Logo_invert_1
+  - first:
+      213: -1426972473546292323
+    second: Copia de Copia de Logo_invert_2
+  - first:
+      213: 9313317391531175
+    second: Copia de Copia de Logo_invert_3
+  - first:
+      213: 6556452284347752303
+    second: Copia de Copia de Logo_invert_4
+  - first:
+      213: 7425284092425367591
+    second: Copia de Copia de Logo_invert_5
+  - first:
+      213: 4860915221118545830
+    second: Copia de Copia de Logo_invert_6
+  - first:
+      213: 461898055758546855
+    second: Copia de Copia de Logo_invert_7
+  - first:
+      213: 8568761809471600931
+    second: Copia de Copia de Logo_invert_8
+  - first:
+      213: 1459438002580750422
+    second: Copia de Copia de Logo_invert_9
+  - first:
+      213: -4995335013054571700
+    second: Copia de Copia de Logo_invert_10
+  - first:
+      213: -7529221810327107848
+    second: Copia de Copia de Logo_invert_11
+  - first:
+      213: -7493397002772949122
+    second: Copia de Copia de Logo_invert_12
+  - first:
+      213: -3979292487293476112
+    second: Copia de Copia de Logo_invert_13
+  - first:
+      213: -443092010583510160
+    second: Copia de Copia de Logo_invert_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_0
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 249
+        width: 373
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee9f81bd204932c0800000000000000
+      internalID: -4451456191682339102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_1
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 568
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c57c2dd91ddf2d80800000000000000
+      internalID: -8273150887301712448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_2
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 528
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9343028810623ce0800000000000000
+      internalID: -1426972473546292323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 428
+        width: 85
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac7dcea966112000800000000000000
+      internalID: 9313317391531175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_4
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 452
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f98537d923dfa50800000000000000
+      internalID: 6556452284347752303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 448
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7207f5d8a88eb0760800000000000000
+      internalID: 7425284092425367591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_6
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 240
+        width: 75
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af6f0ea3a0757340800000000000000
+      internalID: 4860915221118545830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 220
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a78eef95ddf86600800000000000000
+      internalID: 461898055758546855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 110
+        width: 85
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329fc7a677b5ae670800000000000000
+      internalID: 8568761809471600931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 36
+        width: 158
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65008838127f04410800000000000000
+      internalID: 1459438002580750422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_10
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 290
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b9fc4a5410daab0800000000000000
+      internalID: -4995335013054571700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_11
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 101
+        width: 85
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f64450b7a4d28790800000000000000
+      internalID: -7529221810327107848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_12
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 214
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77ddb0b02b120890800000000000000
+      internalID: -7493397002772949122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_13
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 32
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2ed75e096b6c8c0800000000000000
+      internalID: -3979292487293476112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de Copia de Logo_invert_14
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 55
+        width: 177
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0733b5af922d9d9f0800000000000000
+      internalID: -443092010583510160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Copia de Copia de Logo_invert_0: -4451456191682339102
+      Copia de Copia de Logo_invert_1: -8273150887301712448
+      Copia de Copia de Logo_invert_10: -4995335013054571700
+      Copia de Copia de Logo_invert_11: -7529221810327107848
+      Copia de Copia de Logo_invert_12: -7493397002772949122
+      Copia de Copia de Logo_invert_13: -3979292487293476112
+      Copia de Copia de Logo_invert_14: -443092010583510160
+      Copia de Copia de Logo_invert_2: -1426972473546292323
+      Copia de Copia de Logo_invert_3: 9313317391531175
+      Copia de Copia de Logo_invert_4: 6556452284347752303
+      Copia de Copia de Logo_invert_5: 7425284092425367591
+      Copia de Copia de Logo_invert_6: 4860915221118545830
+      Copia de Copia de Logo_invert_7: 461898055758546855
+      Copia de Copia de Logo_invert_8: 8568761809471600931
+      Copia de Copia de Logo_invert_9: 1459438002580750422
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
