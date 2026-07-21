@@ -19,7 +19,7 @@ public class CurvedSpriteStrip : MonoBehaviour
 
     void Start()
     {
-        speed = FindObjectOfType<MainGame>();
+        speed = FindFirstObjectByType<MainGame>();
         GenerateMesh();
     }
 

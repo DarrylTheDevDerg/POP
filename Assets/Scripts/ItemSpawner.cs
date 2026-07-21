@@ -8,48 +8,50 @@ public class ItemSpawner : MonoBehaviour
     public GameObject[] itemPrefabs;
     public GameObject[] obsPrefabs;
     public GameObject fishPrefab;
+    public float maxSpeed = 20f;
 
-    private float _objTimer, _obsTimer, _fishT, chance;
+    private float _objTimer, _obsTimer, _fishT, difficulty;
     private PauseMenu _pauseMenu;
+    private TutorialIdle _t;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        mgmt = FindObjectOfType<MainGame>();
+        mgmt = FindFirstObjectByType<MainGame>();
+        _t = FindFirstObjectByType<TutorialIdle>();
         
         _objTimer = Random.Range(15, 35);
-        _obsTimer = Random.Range(20, 35);
+        _obsTimer = Random.Range(30, 85);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Time.timeScale > 0)
+        if (Time.timeScale > 0 && !_t.inTutoriel)
         {
-            chance += Time.deltaTime / 2;
-
-            if (chance >= 17)
-            {
-                chance = 17;
-            }
+            difficulty = Mathf.Clamp01(mgmt.speed / maxSpeed);
+            
+            float itemInterval = Mathf.Lerp(35.5f, 1.5f, difficulty / 2);
+            float obsInterval = Mathf.Lerp(12.75f, 0.8f, difficulty / 2);
+            float fishInterval = Mathf.Lerp(12.5f, 2.5f, difficulty / 2);
             
             _objTimer += Time.deltaTime;
             _obsTimer += Time.deltaTime;
             _fishT += Time.deltaTime;
 
-            if (_objTimer >= 12 / (chance / 7f))
+            if (_objTimer >= itemInterval)
             {
                 SpawnItems(itemSpawner, Random.Range(1, 7));
                 _objTimer = 0;
             }
 
-            if (_obsTimer >= 10 / (chance / 3f))
+            if (_obsTimer >= obsInterval)
             {
                 SpawnObs(obsSpawner);
                 _obsTimer = 0;
             }
             
-            if (_fishT >= 7.45f / (chance / 9.45f))
+            if (_fishT >= fishInterval)
             {
                 SpawnFish(fishSpawner);
                 _fishT = 0;
@@ -68,8 +70,11 @@ public class ItemSpawner : MonoBehaviour
 
     void SpawnObs(Collider2D obsSpawn)
     {
-        Vector2 position = GetRandomSpawnPosition(obsSpawn);
-        Instantiate(obsPrefabs[Random.Range(0, obsPrefabs.Length)], position, Quaternion.identity);
+        for (int i = 0; i < Random.Range(1, 3); i++)
+        {
+            Vector2 position = GetRandomSpawnPosition(obsSpawn);
+            Instantiate(obsPrefabs[Random.Range(0, obsPrefabs.Length)], position, Quaternion.identity);
+        }
     }
     
     void SpawnFish(Collider2D fishSpawn)

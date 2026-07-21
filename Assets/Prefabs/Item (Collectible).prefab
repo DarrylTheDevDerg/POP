@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4095435228461996082}
   - component: {fileID: 5763507065993612487}
   - component: {fileID: -3397096297851770449}
+  - component: {fileID: 2195134481935074120}
   m_Layer: 0
   m_Name: Item (Collectible)
   m_TagString: Collectible
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 5887034152300221230}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -128,6 +129,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2195134481935074120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5887034152300221230}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67234c651abc2a46badf862bb825f8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AfterimageSpawner
+  prefab: {fileID: 1644184110670915038, guid: b33c26b38057ff446ae1d3861118488e, type: 3}
+  spriteRenderer: {fileID: 8447802574820882086}
+  interval: 0.05
 --- !u!1 &6966937923453012634
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,7 +223,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 74ccd42880595d0449e2184e150e2e9b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.5254902}
@@ -246,7 +262,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 325416379805825734}
@@ -298,9 +314,9 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -7740471966833098975, guid: 4b5c931e5a7fa424b9b6bc1f709348dd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a5f1d034c4f8164dbc860beb70a72e3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

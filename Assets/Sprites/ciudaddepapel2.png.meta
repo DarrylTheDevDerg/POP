@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: d274284d4c432d143bf50762c596415a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 452722713993311743
+    second: ciudaddepapel2_0
+  - first:
+      213: -6553039761607105205
+    second: ciudaddepapel2_1
+  - first:
+      213: -7455202852161805788
+    second: ciudaddepapel2_2
+  - first:
+      213: -3431302279536665487
+    second: ciudaddepapel2_3
+  - first:
+      213: 5322709094464002341
+    second: ciudaddepapel2_4
+  - first:
+      213: 2189989307080332105
+    second: ciudaddepapel2_5
+  - first:
+      213: -4513838090445339150
+    second: ciudaddepapel2_6
+  - first:
+      213: 4009220803741209956
+    second: ciudaddepapel2_7
+  - first:
+      213: 3006860222352706082
+    second: ciudaddepapel2_8
+  - first:
+      213: 4842589153335617731
+    second: ciudaddepapel2_9
+  - first:
+      213: 2271670303075636350
+    second: ciudaddepapel2_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ciudaddepapel2_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 112
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff57255e8e4684600800000000000000
+      internalID: 452722713993311743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ciudaddepapel2_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 110
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45e56a6e0dee05a0800000000000000
+      internalID: -6553039761607105205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ciudaddepapel2_2
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 101
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422aa6c518cc98890800000000000000
+      internalID: -7455202852161805788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ciudaddepapel2_3
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 111
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c9a3fa1c09160d0800000000000000
+      internalID: -3431302279536665487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ciudaddepapel2_4
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 148
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529944278bf0ed940800000000000000
+      internalID: 5322709094464002341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ciudaddepapel2_5
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 0
+        width: 115
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9435d66fba7646e10800000000000000
+      internalID: 2189989307080332105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ciudaddepapel2_6
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 0
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5c06d0c20ab51c0800000000000000
+      internalID: -4513838090445339150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ciudaddepapel2_7
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 0
+        width: 145
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465d919441d93a730800000000000000
+      internalID: 4009220803741209956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ciudaddepapel2_8
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 0
+        width: 135
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ac592f0738ab920800000000000000
+      internalID: 3006860222352706082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ciudaddepapel2_9
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 0
+        width: 103
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8aab58d25543340800000000000000
+      internalID: 4842589153335617731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ciudaddepapel2_10
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 122
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7490a5da18968f10800000000000000
+      internalID: 2271670303075636350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ciudaddepapel2_0: 452722713993311743
+      ciudaddepapel2_1: -6553039761607105205
+      ciudaddepapel2_10: 2271670303075636350
+      ciudaddepapel2_2: -7455202852161805788
+      ciudaddepapel2_3: -3431302279536665487
+      ciudaddepapel2_4: 5322709094464002341
+      ciudaddepapel2_5: 2189989307080332105
+      ciudaddepapel2_6: -4513838090445339150
+      ciudaddepapel2_7: 4009220803741209956
+      ciudaddepapel2_8: 3006860222352706082
+      ciudaddepapel2_9: 4842589153335617731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

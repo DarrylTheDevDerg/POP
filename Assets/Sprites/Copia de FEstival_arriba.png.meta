@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: e49dfbb5a2f05ea41b23ad01c5282e80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1243101476463574543
+    second: Copia de FEstival_arriba_0
+  - first:
+      213: -8123072370030642564
+    second: Copia de FEstival_arriba_1
+  - first:
+      213: 802237728268450356
+    second: Copia de FEstival_arriba_2
+  - first:
+      213: -6620374382135629023
+    second: Copia de FEstival_arriba_3
+  - first:
+      213: -7482266563153867378
+    second: Copia de FEstival_arriba_4
+  - first:
+      213: 7771542007285200225
+    second: Copia de FEstival_arriba_5
+  - first:
+      213: 4207921451389543089
+    second: Copia de FEstival_arriba_6
+  - first:
+      213: 717832644568792620
+    second: Copia de FEstival_arriba_7
+  - first:
+      213: -7240306793878079955
+    second: Copia de FEstival_arriba_8
+  - first:
+      213: 9174904419449546708
+    second: Copia de FEstival_arriba_9
+  - first:
+      213: 631858003427822237
+    second: Copia de FEstival_arriba_10
+  - first:
+      213: 812480857759373990
+    second: Copia de FEstival_arriba_11
+  - first:
+      213: -114132991592600902
+    second: Copia de FEstival_arriba_12
+  - first:
+      213: -7289185858052995283
+    second: Copia de FEstival_arriba_13
+  - first:
+      213: 5155155754753116344
+    second: Copia de FEstival_arriba_14
+  - first:
+      213: 1929848908104987632
+    second: Copia de FEstival_arriba_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_0
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1346
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f100ab1bcd9fbee0800000000000000
+      internalID: -1243101476463574543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 817
+        width: 219
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a7883a7bc054f80800000000000000
+      internalID: -8123072370030642564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 677
+        width: 190
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a7bd2a6fe122b00800000000000000
+      internalID: 802237728268450356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_3
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1072
+        width: 1138
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ba5b06394bf14a0800000000000000
+      internalID: -6620374382135629023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_4
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 493
+        width: 744
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d4e6c1436a92890800000000000000
+      internalID: -7482266563153867378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_5
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1016
+        width: 101
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165b24db7401adb60800000000000000
+      internalID: 7771542007285200225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 816
+        width: 176
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2e1d8f34a856a30800000000000000
+      internalID: 4207921451389543089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_7
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 744
+        width: 220
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2eb3bbacf046f900800000000000000
+      internalID: 717832644568792620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_8
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 586
+        width: 448
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26bc0ee453458b90800000000000000
+      internalID: -7240306793878079955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_9
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 601
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7a37175fec35f70800000000000000
+      internalID: 9174904419449546708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_10
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 614
+        width: 121
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a8dc2a18fc4c800800000000000000
+      internalID: 631858003427822237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_11
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 609
+        width: 108
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa5d811903864b00800000000000000
+      internalID: 812480857759373990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_12
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 0
+        width: 701
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba68fa16a48a6ef0800000000000000
+      internalID: -114132991592600902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 127
+        width: 899
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2743f4f41c97da90800000000000000
+      internalID: -7289185858052995283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_14
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 484
+        width: 173
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8ced388daca8740800000000000000
+      internalID: 5155155754753116344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copia de FEstival_arriba_15
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 8
+        width: 127
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3f5cd6b5338ca10800000000000000
+      internalID: 1929848908104987632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Copia de FEstival_arriba_0: -1243101476463574543
+      Copia de FEstival_arriba_1: -8123072370030642564
+      Copia de FEstival_arriba_10: 631858003427822237
+      Copia de FEstival_arriba_11: 812480857759373990
+      Copia de FEstival_arriba_12: -114132991592600902
+      Copia de FEstival_arriba_13: -7289185858052995283
+      Copia de FEstival_arriba_14: 5155155754753116344
+      Copia de FEstival_arriba_15: 1929848908104987632
+      Copia de FEstival_arriba_2: 802237728268450356
+      Copia de FEstival_arriba_3: -6620374382135629023
+      Copia de FEstival_arriba_4: -7482266563153867378
+      Copia de FEstival_arriba_5: 7771542007285200225
+      Copia de FEstival_arriba_6: 4207921451389543089
+      Copia de FEstival_arriba_7: 717832644568792620
+      Copia de FEstival_arriba_8: -7240306793878079955
+      Copia de FEstival_arriba_9: 9174904419449546708
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

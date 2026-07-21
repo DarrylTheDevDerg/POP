@@ -8,36 +8,42 @@ public class BackgroundSpawner : MonoBehaviour
     private float _th = 5;
     private float _t, _ch;
     private int _qt = 2;
+
+    private TutorialIdle _tu;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _collider = GetComponent<BoxCollider2D>();
         _ch = Random.Range(0, 100);
+        _tu = FindFirstObjectByType<TutorialIdle>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        _t += Time.deltaTime;
-
-        if (_t >= _th)
+        if (!_tu.inTutoriel && Time.timeScale > 0f)
         {
-            _t = 0;
-            _ch = Random.Range(0, 100);
-        }
+            _t += Time.deltaTime;
 
-        if (_ch >= 55)
-        {
-            _ch = 0;
-            _th = Random.Range(1, 10);
-
-            for (int i = 0; i < _qt; i++)
+            if (_t >= _th)
             {
-                Spawn(_collider);
+                _t = 0;
+                _ch = Random.Range(0, 100);
             }
+
+            if (_ch >= 55)
+            {
+                _ch = 0;
+                _th = Random.Range(1, 10);
+
+                for (int i = 0; i < _qt; i++)
+                {
+                    Spawn(_collider);
+                }
             
-            _qt = Random.Range(1, 5);
+                _qt = Random.Range(1, 5);
+            }
         }
     }
     

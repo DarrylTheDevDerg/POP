@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2374285224195411645}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.7}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 0.46666667}
+  m_Color: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 0.92941177}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -121,8 +121,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundSprite
   sprites:
-  - {fileID: 21300000, guid: 989296b8bd35fab40802a7713cece4ea, type: 3}
-  - {fileID: 21300000, guid: 83540059b69cb5f4d810501c77b95ae0, type: 3}
+  - {fileID: 21300000, guid: 2c23746543765e7418ac95be6a9aa645, type: 3}
+  - {fileID: 21300000, guid: 92aa870a824813a4d8bfe6d7cc7ab74c, type: 3}
+  - {fileID: 21300000, guid: a28ccc2c23bfbc24584b9216dbcfe886, type: 3}
+  - {fileID: 21300000, guid: 96b0b5823009f9c4f8b544eda93c8ef7, type: 3}
+  shouldFlip: 1
 --- !u!61 &4912767835732873334
 BoxCollider2D:
   m_ObjectHideFlags: 0

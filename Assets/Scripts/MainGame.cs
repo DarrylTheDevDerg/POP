@@ -3,24 +3,22 @@ using UnityEngine;
 public class MainGame : MonoBehaviour
 {
     public float speed;
+    public AnimationCurve accel;
 
+    private TutorialIdle _t;
+
+    void Start()
+    {
+        _t = FindFirstObjectByType<TutorialIdle>();
+    }
+    
     // Update is called once per frame
     void Update()
     {
-        switch (speed)
+        if (!_t.inTutoriel)
         {
-            case < 2:
-                speed += Time.deltaTime / 50;
-                break;
-            
-            case < 4:
-                speed += Time.deltaTime / 100;
-                break;
-            
-            case < 6:
-                speed += Time.deltaTime / 150;
-                break;
+            float div = Mathf.Max(accel.Evaluate(speed), 0.001f);
+            speed += Time.deltaTime / div;
         }
-        
     }
 }

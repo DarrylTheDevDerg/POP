@@ -1,5 +1,5 @@
+using System.Collections;
 using UnityEngine;
-using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
@@ -69,5 +69,47 @@ public class AudioManager : MonoBehaviour
         sfxSource.volume = volumeValue;
         PlayerPrefs.SetFloat(SFX_KEY, volumeValue);
         PlayerPrefs.Save();
+    }
+
+    public void SetMusicPitch(float pitchValue)
+    {
+        musicSource.pitch = pitchValue;
+    }
+    
+    public void SetSfxPitch(float pitchValue)
+    {
+        sfxSource.pitch = pitchValue;
+    }
+
+    public float GetPitch(string name)
+    {
+        if (name == "music")
+        {
+            return musicSource.pitch;
+        }
+        
+        if (name == "sfx")
+        {
+            return sfxSource.pitch;
+        }
+
+        return 0f;
+    }
+
+    public void ResetPitch()
+    {
+        musicSource.pitch = 1f;
+        sfxSource.pitch = 1f;
+    }
+
+    public void BGMFadeOut()
+    {
+        while (musicSource.volume > 0)
+        {
+            musicSource.volume = Mathf.MoveTowards(musicSource.volume, 0, 0.005f);
+        }
+        
+        if (musicSource.volume <= 0) StopMusic();
+        LoadAudioSettings();
     }
 }

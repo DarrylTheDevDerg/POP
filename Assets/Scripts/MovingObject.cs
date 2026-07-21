@@ -10,9 +10,9 @@ public class MovingObject : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        mainGame = FindObjectOfType<MainGame>();
-        player = FindObjectOfType<PlayerManager>();
-        
+        mainGame = FindFirstObjectByType<MainGame>();
+        player = FindFirstObjectByType<PlayerManager>();
+
         _transform = transform;
     }
 
@@ -23,19 +23,23 @@ public class MovingObject : MonoBehaviour
         {
             switch (player.GetCurrentPowerUp())
             {
+                case PowerUp.Faster:
+                    if (player.RelayBoost()) _transform.position += Vector3.left * (0.095f * (mainGame.speed * 12.5f) * Time.deltaTime);
+                    else _transform.position += Vector3.left * (0.005f * (mainGame.speed * 1.5f) * Time.deltaTime);
+                    break;
+                    
                 case PowerUp.Slow:
-                    _transform.localPosition -= new Vector3(0.0325f * (mainGame.speed / (6f * mainGame.speed)), 0, 0);
+                    _transform.position += Vector3.left * (0.015f * (mainGame.speed * 1.25f) * Time.deltaTime);
                     break;
                 
-                case PowerUp.Faster:
-                    _transform.localPosition -= new Vector3(0.095f * (mainGame.speed / (2.5f * mainGame.speed)), 0, 0);
+                case PowerUp.None:
+                    _transform.position += Vector3.left * (0.075f * (mainGame.speed * 1.75f) * Time.deltaTime);
                     break;
                 
                 default:
-                    _transform.localPosition -= new Vector3(0.065f * (mainGame.speed / (3 * mainGame.speed)), 0, 0);
+                    _transform.position += Vector3.left * (0.075f * (mainGame.speed * 1.75f) * Time.deltaTime);
                     break;
             }
-            
         }
     }
 }

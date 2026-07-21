@@ -3,6 +3,8 @@ using UnityEngine;
 public class BackgroundSprite : MonoBehaviour
 {
     public Sprite[] sprites;
+    public bool shouldFlip = true;
+    
     
     private SpriteRenderer _spriteRenderer;
     
@@ -14,7 +16,7 @@ public class BackgroundSprite : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _spriteRenderer.sprite = sprites[Random.Range(0, sprites.Length)];
 
-        if (flip > 50)
+        if (flip > 50 && shouldFlip)
         {
             _spriteRenderer.flipX = true;
         }

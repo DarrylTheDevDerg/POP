@@ -23,7 +23,7 @@ public class ComboComment : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        _playerManager = FindFirstObjectByType(typeof(PlayerManager)) as PlayerManager;
+        _playerManager = FindFirstObjectByType<PlayerManager>();
     }
 
     // Update is called once per frame

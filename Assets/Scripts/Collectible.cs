@@ -14,7 +14,7 @@ public class Collectible : MonoBehaviour
     {
         if (player.GetCurrentPowerUp() == PowerUp.Magnet && Time.timeScale > 0)
         {
-            gameObject.transform.position = Vector2.MoveTowards(gameObject.transform.position, new Vector2(player.transform.position.x, player.transform.position.y), 15f * Time.deltaTime); 
+            gameObject.transform.position = Vector2.MoveTowards(gameObject.transform.position, new Vector2(player.transform.position.x, player.transform.position.y), 15f * Time.deltaTime + 1f + Time.deltaTime); 
         }
     }
 

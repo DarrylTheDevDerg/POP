@@ -8,22 +8,22 @@ public class PauseMenu : MonoBehaviour
     private bool isPaused = false;
     
     private PlayerManager _controls;
+    private TutorialIdle _t;
 
     void Awake()
     {
         _controls = FindFirstObjectByType<PlayerManager>();
+        _t = FindFirstObjectByType<TutorialIdle>();
     }
     
     // Update is called once per frame
     void Update()
     {
-        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        if (Keyboard.current.escapeKey.wasPressedThisFrame && !_t.inTutoriel)
         {
             if (!isPaused)
             {
-                pauseMenuUI.SetActive(true);
-                Time.timeScale = 0f;
-                isPaused = true;
+                Pause();
             }
             else
             {
@@ -53,5 +53,12 @@ public class PauseMenu : MonoBehaviour
     public void ApplicationQuit()
     {
         Application.Quit();
+    }
+
+    public void Pause()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;
     }
 }
