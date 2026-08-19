@@ -1258,7 +1258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c866b4e06ce355e4ebd257068b12ccb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioManagerOnDemand
-  clip: {fileID: 8300000, guid: b6f08b0849d32f44582434381049516e, type: 3}
+  clip: {fileID: 8300000, guid: 8720e968a19761d46b3291ba361c953c, type: 3}
   onStart: 0
   isBGM: 1
 --- !u!1 &577674220
